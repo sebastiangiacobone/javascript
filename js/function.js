@@ -1,7 +1,26 @@
+/**document.getElementById('boton').onclick = function (){
+    console.log("Capturamos el evento click");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento en Javascript"
 
-    console.log("Hola Mundo");
+}
+**/
 
-    let numero1=3;
-    let numero2=5;
-    let resultado= numero1 + numero2;
-    console.log("La suma es "+ resultado);
+/** 
+
+document.addEventListener('click', function(){
+    console.log("Hola Mundo desde eventlistener");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento en Javascript"
+
+});
+**/
+
+document.getElementById('boton').addEventListener('click', function(){
+    console.log("Hola Mundo desde eventlistener");
+    document.getElementById("demo").innerHTML = "Estamos probando nuestro primer evento en Javascript"
+
+});
+
+document.getElementById('boton_nocturno').addEventListener('click', function(){
+   document.body.style.backgroundColor ='#FF0000';
+
+});
