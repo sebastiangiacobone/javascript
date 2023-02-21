@@ -24,3 +24,14 @@ document.getElementById('boton_nocturno').addEventListener('click', function(){
    document.body.style.backgroundColor ='#FF0000';
 
 });
+
+document.getElementById('boton_diurno').addEventListener('click', function(){
+    document.body.style.backgroundColor ='blue';
+ 
+ });
+
+ 
+
+ document.getElementById('boton_ocultar').addEventListener('click', function(){
+    document.getElementById('demo').style.display='none';
+ });
