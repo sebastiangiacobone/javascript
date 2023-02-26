@@ -1,8 +1,17 @@
+* {
+   color: blue;
+   background-color: blue;
+ 
+}
+
 body {
    background-color: lightgrey;
    color: black;
 }
 
 #demo {
-color: red
+   background-color: beige;
+   color: red
+
+
 }
